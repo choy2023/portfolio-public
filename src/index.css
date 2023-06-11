@@ -1,0 +1,34 @@
+body {
+  font-family: Calibri;
+  transform: scale(0.9);
+  transition: transform 0.3s ease-out;
+}
+
+h1,
+h2 {
+  margin-top: 3em ;
+  border-bottom: 1px solid black;
+  font-weight: 400;
+  color: #C00000;
+
+}
+
+
+h2 {
+  font-size: 1.2rem; 
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 767px) {
+  body {
+    min-width: 650px;
+    transform: scale(1);
+    margin-left: 1in;
+    margin-right: 1in;
+    margin-bottom: 1in;
+  }
+}

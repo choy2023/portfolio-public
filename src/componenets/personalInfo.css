@@ -1,0 +1,17 @@
+.personal-info {
+    font-size: 1rem;
+  }
+  
+  .personal-info-item {
+    display: flex;
+    align-items: center;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .icon {
+    margin-right: 1rem;
+  }
+  
+  .personal-info-item:hover {
+    transform: scale(1.05);
+  }
